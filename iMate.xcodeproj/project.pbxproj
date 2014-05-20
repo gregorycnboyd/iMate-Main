@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79F51771192BB27600E1427A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F51770192BB27600E1427A /* Foundation.framework */; };
+		79F51773192BB27600E1427A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F51772192BB27600E1427A /* CoreGraphics.framework */; };
+		79F51775192BB27600E1427A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F51774192BB27600E1427A /* UIKit.framework */; };
+		79F5177B192BB27600E1427A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79F51779192BB27600E1427A /* InfoPlist.strings */; };
+		79F5177D192BB27600E1427A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5177C192BB27600E1427A /* main.m */; };
+		79F51781192BB27600E1427A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F51780192BB27600E1427A /* AppDelegate.m */; };
+		79F51784192BB27600E1427A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F51782192BB27600E1427A /* Main.storyboard */; };
+		79F51787192BB27600E1427A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F51786192BB27600E1427A /* ViewController.m */; };
+		79F51789192BB27600E1427A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F51788192BB27600E1427A /* Images.xcassets */; };
+		79F51790192BB27600E1427A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F5178F192BB27600E1427A /* XCTest.framework */; };
+		79F51791192BB27600E1427A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F51770192BB27600E1427A /* Foundation.framework */; };
+		79F51792192BB27600E1427A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F51774192BB27600E1427A /* UIKit.framework */; };
+		79F5179A192BB27600E1427A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79F51798192BB27600E1427A /* InfoPlist.strings */; };
+		79F5179C192BB27600E1427A /* iMateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5179B192BB27600E1427A /* iMateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79F51793192BB27600E1427A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F51765192BB27600E1427A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F5176C192BB27600E1427A;
+			remoteInfo = iMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79F5176D192BB27600E1427A /* iMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F51770192BB27600E1427A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79F51772192BB27600E1427A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79F51774192BB27600E1427A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79F51778192BB27600E1427A /* iMate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMate-Info.plist"; sourceTree = "<group>"; };
+		79F5177A192BB27600E1427A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79F5177C192BB27600E1427A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F5177E192BB27600E1427A /* iMate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMate-Prefix.pch"; sourceTree = "<group>"; };
+		79F5177F192BB27600E1427A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79F51780192BB27600E1427A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79F51783192BB27600E1427A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79F51785192BB27600E1427A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79F51786192BB27600E1427A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79F51788192BB27600E1427A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79F5178E192BB27600E1427A /* iMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F5178F192BB27600E1427A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		79F51797192BB27600E1427A /* iMateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMateTests-Info.plist"; sourceTree = "<group>"; };
+		79F51799192BB27600E1427A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79F5179B192BB27600E1427A /* iMateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F5176A192BB27600E1427A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F51773192BB27600E1427A /* CoreGraphics.framework in Frameworks */,
+				79F51775192BB27600E1427A /* UIKit.framework in Frameworks */,
+				79F51771192BB27600E1427A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F5178B192BB27600E1427A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F51790192BB27600E1427A /* XCTest.framework in Frameworks */,
+				79F51792192BB27600E1427A /* UIKit.framework in Frameworks */,
+				79F51791192BB27600E1427A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F51764192BB27600E1427A = {
+			isa = PBXGroup;
+			children = (
+				79F51776192BB27600E1427A /* iMate */,
+				79F51795192BB27600E1427A /* iMateTests */,
+				79F5176F192BB27600E1427A /* Frameworks */,
+				79F5176E192BB27600E1427A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F5176E192BB27600E1427A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F5176D192BB27600E1427A /* iMate.app */,
+				79F5178E192BB27600E1427A /* iMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F5176F192BB27600E1427A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F51770192BB27600E1427A /* Foundation.framework */,
+				79F51772192BB27600E1427A /* CoreGraphics.framework */,
+				79F51774192BB27600E1427A /* UIKit.framework */,
+				79F5178F192BB27600E1427A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F51776192BB27600E1427A /* iMate */ = {
+			isa = PBXGroup;
+			children = (
+				79F5177F192BB27600E1427A /* AppDelegate.h */,
+				79F51780192BB27600E1427A /* AppDelegate.m */,
+				79F51782192BB27600E1427A /* Main.storyboard */,
+				79F51785192BB27600E1427A /* ViewController.h */,
+				79F51786192BB27600E1427A /* ViewController.m */,
+				79F51788192BB27600E1427A /* Images.xcassets */,
+				79F51777192BB27600E1427A /* Supporting Files */,
+			);
+			path = iMate;
+			sourceTree = "<group>";
+		};
+		79F51777192BB27600E1427A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F51778192BB27600E1427A /* iMate-Info.plist */,
+				79F51779192BB27600E1427A /* InfoPlist.strings */,
+				79F5177C192BB27600E1427A /* main.m */,
+				79F5177E192BB27600E1427A /* iMate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F51795192BB27600E1427A /* iMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				79F5179B192BB27600E1427A /* iMateTests.m */,
+				79F51796192BB27600E1427A /* Supporting Files */,
+			);
+			path = iMateTests;
+			sourceTree = "<group>";
+		};
+		79F51796192BB27600E1427A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F51797192BB27600E1427A /* iMateTests-Info.plist */,
+				79F51798192BB27600E1427A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F5176C192BB27600E1427A /* iMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F5179F192BB27600E1427A /* Build configuration list for PBXNativeTarget "iMate" */;
+			buildPhases = (
+				79F51769192BB27600E1427A /* Sources */,
+				79F5176A192BB27600E1427A /* Frameworks */,
+				79F5176B192BB27600E1427A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMate;
+			productName = iMate;
+			productReference = 79F5176D192BB27600E1427A /* iMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79F5178D192BB27600E1427A /* iMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F517A2192BB27600E1427A /* Build configuration list for PBXNativeTarget "iMateTests" */;
+			buildPhases = (
+				79F5178A192BB27600E1427A /* Sources */,
+				79F5178B192BB27600E1427A /* Frameworks */,
+				79F5178C192BB27600E1427A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F51794192BB27600E1427A /* PBXTargetDependency */,
+			);
+			name = iMateTests;
+			productName = iMateTests;
+			productReference = 79F5178E192BB27600E1427A /* iMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F51765192BB27600E1427A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Rajkumar;
+				TargetAttributes = {
+					79F5178D192BB27600E1427A = {
+						TestTargetID = 79F5176C192BB27600E1427A;
+					};
+				};
+			};
+			buildConfigurationList = 79F51768192BB27600E1427A /* Build configuration list for PBXProject "iMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F51764192BB27600E1427A;
+			productRefGroup = 79F5176E192BB27600E1427A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F5176C192BB27600E1427A /* iMate */,
+				79F5178D192BB27600E1427A /* iMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F5176B192BB27600E1427A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F51789192BB27600E1427A /* Images.xcassets in Resources */,
+				79F5177B192BB27600E1427A /* InfoPlist.strings in Resources */,
+				79F51784192BB27600E1427A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F5178C192BB27600E1427A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F5179A192BB27600E1427A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F51769192BB27600E1427A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F51787192BB27600E1427A /* ViewController.m in Sources */,
+				79F51781192BB27600E1427A /* AppDelegate.m in Sources */,
+				79F5177D192BB27600E1427A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F5178A192BB27600E1427A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F5179C192BB27600E1427A /* iMateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79F51794192BB27600E1427A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F5176C192BB27600E1427A /* iMate */;
+			targetProxy = 79F51793192BB27600E1427A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79F51779192BB27600E1427A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F5177A192BB27600E1427A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79F51782192BB27600E1427A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F51783192BB27600E1427A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79F51798192BB27600E1427A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F51799192BB27600E1427A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79F5179D192BB27600E1427A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79F5179E192BB27600E1427A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79F517A0192BB27600E1427A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMate/iMate-Prefix.pch";
+				INFOPLIST_FILE = "iMate/iMate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79F517A1192BB27600E1427A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMate/iMate-Prefix.pch";
+				INFOPLIST_FILE = "iMate/iMate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79F517A3192BB27600E1427A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMate.app/iMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMate/iMate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iMateTests/iMateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79F517A4192BB27600E1427A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMate.app/iMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMate/iMate-Prefix.pch";
+				INFOPLIST_FILE = "iMateTests/iMateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F51768192BB27600E1427A /* Build configuration list for PBXProject "iMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F5179D192BB27600E1427A /* Debug */,
+				79F5179E192BB27600E1427A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F5179F192BB27600E1427A /* Build configuration list for PBXNativeTarget "iMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F517A0192BB27600E1427A /* Debug */,
+				79F517A1192BB27600E1427A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79F517A2192BB27600E1427A /* Build configuration list for PBXNativeTarget "iMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F517A3192BB27600E1427A /* Debug */,
+				79F517A4192BB27600E1427A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F51765192BB27600E1427A /* Project object */;
+}
